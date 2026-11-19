@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>Weather Admin</h2>
+    <a href="/index.html">Weather Home</a>
+    <a href="/admin.html" class="active">Dashboard</a>
+</div>
+
+<main class="main-content">
+    <header>
+        <h1>Admin Dashboard</h1>
+        <p>Weather website analytics overview</p>
+    </header>
+
+    <section class="stats">
+        <div class="stat-card">
+            <h3>Total Page Visits</h3>
+            <p id="pageVisits">0</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Total City Searches</h3>
+            <p id="citySearches">0</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Popular City</h3>
+            <p id="popularCity">--</p>
+        </div>
+    </section>
+
+<!--    <section class="activity">-->
+<!--        <h2>Analytics Overview</h2>-->
+<!--        <p>Dashboard is ready for analytics integration.</p>-->
+<!--    </section>-->
+</main>
+
+<script src="admin.js"></script>
+</body>
+</html>
